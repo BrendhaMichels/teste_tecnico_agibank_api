@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DogAPITestSuite">
+
+    <listeners>
+        <listener class-name="com.dogapi.reports.ExtentManager"/>
+    </listeners>
+
+    <test name="APIValidationTests">
+        <classes>
+            <class name="com.dogapi.tests.DogAPITests"/>
+        </classes>
+    </test>
+
+</suite>
